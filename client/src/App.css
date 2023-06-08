@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -34,5 +34,42 @@
   }
   to {
     transform: rotate(360deg);
-  }
+  } */
+/* } */
+
+body {
+  background-color: rgba(0, 192, 250, 0.747);
+}
+
+#title {
+  text-align: center;
+}
+
+.container {
+  border-style: groove;
+}
+
+#login {
+  position: relative;
+  left: 1450px;
+  top: -50px;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.posts {
+  text-align: center;
+  border-style: groove;
+  background-color: silver;
+  list-style: none;
+  height: 150px;
+  width: 97%;
+}
+
+#newPost {
+  position: relative;
+  left: 47.5%;
+  top: 9px;
 }
